@@ -6,7 +6,7 @@
     links.forEach(link => {
         link.addEventListener('click', () => {
             placeholder.style.display = 'none';
-        });
+        })
     });
 
     // 2. Fix for mobile iframe scrolling
